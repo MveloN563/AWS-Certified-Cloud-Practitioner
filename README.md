@@ -4,9 +4,9 @@
 ![Linux](https://img.shields.io/badge/Linux-System%20Administration-black?style=for-the-badge&logo=linux)
 ![Python](https://img.shields.io/badge/Python-Automation-blue?style=for-the-badge&logo=python)
 
-Hi, I'm **Mvelo Nyaka**. This repository documents my learning journey through the **AWS re/Start program** — a full-time, hands-on training initiative covering cloud fundamentals, IT operations, networking, security, and automation using Amazon Web Services.
+Hello, my name is **Mvelo Nyaka**. This repository details my educational experience with the AWS re/Start program, a full-time, practical training curriculum that covers networking, security, cloud principles, IT operations, and automation with Amazon Web Services.
 
-Throughout the program, I built practical skills through labs, structured learning modules, and projects that simulated real-world cloud environments.
+Through labs, structured learning modules, and projects that mimicked real-world cloud environments, I developed practical skills throughout the program.
 
 ---
 
