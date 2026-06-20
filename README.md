@@ -212,14 +212,7 @@
       border-color: #b8cbe0;
     }
 
-    .footer {
-      margin-top: 3.5rem;
-      padding-top: 2rem;
-      border-top: 2px solid #eef2f7;
-      text-align: center;
-      color: #4a5c78;
-      font-size: 0.95rem;
-    }
+    /* footer removed - no footer styles needed */
 
     /* responsive */
     @media (max-width: 700px) {
@@ -326,11 +319,7 @@
     <p style="font-size: 1.05rem;">This repository represents a complete learning journey through cloud computing fundamentals and practical AWS workloads. It documents consistent hands‑on experience across infrastructure, security, automation, and application deployment.</p>
   </div>
 
-  <!-- Footer -->
-  <div class="footer">
-    <p><i class="fas fa-code"></i> Built from the AWS re/Start README &nbsp;·&nbsp; <i class="fab fa-github"></i> <a href="#" style="color: #1e2a3a; text-decoration: none; font-weight: 500;">Chiara Tardioli</a></p>
-    <p style="margin-top: 0.4rem; font-size: 0.85rem; opacity: 0.7;">Portfolio page generated from learning journey documentation</p>
-  </div>
+  <!-- Footer has been removed as requested -->
 
 </div>
 </body>
