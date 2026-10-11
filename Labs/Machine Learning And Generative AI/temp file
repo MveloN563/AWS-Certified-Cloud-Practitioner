@@ -1,1 +1,22 @@
+# 🤖 ML & Generative AI
 
+## Machine Learning Basics
+- **Supervised** — labelled data (classification, regression)
+- **Unsupervised** — clustering, anomaly detection
+- **Reinforcement** — reward-based learning
+
+## AWS ML Services
+- **SageMaker** — build, train, deploy models
+- **Rekognition** — image/video analysis
+- **Comprehend** — NLP
+- **Polly / Transcribe** — speech
+
+## Generative AI
+- **Amazon Bedrock** — foundation models via API
+- **Amazon Q** — AI assistant for business
+- **PartyRock** — no-code GenAI app builder
+
+## Concepts
+- Tokens, embeddings, temperature
+- Prompt engineering
+- RAG (Retrieval-Augmented Generation)
