@@ -1,0 +1,34 @@
+sudo yum update -y
+sudo yum install -y httpd
+sudo systemctl enable --now httpd
+
+
+### `Core Concepts/Networking.md`
+
+```markdown
+# 🌐 Networking
+
+## VPC Building Blocks
+- **VPC** — isolated virtual network (e.g., `10.0.0.0/16`)
+- **Subnet** — CIDR range within a VPC, tied to one AZ
+- **Internet Gateway (IGW)** — enables internet for public subnets
+- **NAT Gateway** — outbound-only internet for private subnets
+- **Route Table** — rules directing traffic
+- **Security Group** — stateful instance firewall
+- **NACL** — stateless subnet firewall
+
+## Public vs. Private Subnet
+| Feature | Public | Private |
+|---------|--------|---------|
+| Route to IGW | ✅ Yes | ❌ No |
+| Auto-assign public IP | ✅ Yes | ❌ No |
+| Reachable from internet | ✅ Yes | ❌ No |
+
+## CIDR Cheatsheet
+| CIDR | Addresses | Usable (AWS) |
+|------|-----------|--------------|
+| /24 | 256 | 251 |
+| /23 | 512 | 507 |
+| /16 | 65,536 | 65,531 |
+
+> AWS reserves 5 addresses per subnet.
