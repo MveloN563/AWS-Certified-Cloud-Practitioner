@@ -1,1 +1,8 @@
+# 🚀 Projects
 
+Larger applied builds completed during the program.
+
+| Project | Description | File |
+|---------|-------------|------|
+| 3D E-commerce | Simulated cloud e-commerce deployment | [3D-Ecommerce.md](./3D-Ecommerce.md) |
+| S3 Static Website | Static site hosted on S3 | [S3-Static-Website.md](./S3-Static-Website.md) |
