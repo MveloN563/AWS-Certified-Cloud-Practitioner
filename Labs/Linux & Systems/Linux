@@ -1,0 +1,20 @@
+# 🐧 Linux Essentials
+
+## Filesystem
+| Path | Purpose |
+|------|---------|
+| `/` | Root |
+| `/home` | User home directories |
+| `/etc` | Configuration files |
+| `/var/log` | Log files |
+| `/tmp` | Temporary files |
+
+## Common Commands
+```bash
+ls -la            # list all files with details
+cd /var/log       # change directory
+chmod 755 file    # change permissions
+chown user:group  # change ownership
+ps aux            # list processes
+top               # live process monitor
+df -h             # disk usage
